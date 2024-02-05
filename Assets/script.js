@@ -23,7 +23,7 @@ function getPassword() {
   if (lowerAlpha) {multiSelect += lowercaseABC;}
   if (numericOptions) {multiSelect += numeric;}
   if (specialSymbols) {multiSelect += symbols;}
-  for (i = 0; i < length; i++) {
+  for (i = 0; i < keyLength; i++) {
     randomKey += multiSelect[Math.floor(Math.random() * multiSelect.length)]
   }
   return(randomKey);
@@ -34,11 +34,10 @@ var passwordText = document.querySelector("#password");
 
 //Ross:  Function #2: write password function and call it
 function writePassword(randomKey) {
-if (password.length === 0) {
-  return;
-}
-  passwordText.value = randomKey;
+  if (password.length === 0) {
+    return;}
+    passwordText.value = randomKey;
 }
 
-// Add event listener to generate button
+// Ross:  Final step:  Add event listener to generate button
 generateBtn.addEventListener("click", function() {writePassword(getPassword()) });
