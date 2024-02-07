@@ -35,7 +35,7 @@ This is my THIRD challenge homework assignment for the BootCamp course titled "M
     1. My Github Repo:  https://github.com/rdtauche/challenge3
     2. My Pages Deploy: https://rdtauche.github.io/challenge3/
     3. Screenshot of my live pages site:
-![image](https://github.com/rdtauche/challenge3/assets/57552771/87d51bb4-f3d7-42f8-999a-85258134a118)
+![image](https://github.com/rdtauche/challenge3/assets/57552771/871ab457-d0fa-460d-9e29-94be2c42d302)
 
 
 ## Usage
